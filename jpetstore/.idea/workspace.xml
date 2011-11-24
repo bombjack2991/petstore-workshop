@@ -25,12 +25,18 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/jpetstore$All_Tests_in_Jpetstore.ic" NAME="All Tests in Jpetstore Coverage Results" MODIFIED="1322166133797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/jpetstore$All_Tests_in_Jpetstore.ic" NAME="All Tests in Jpetstore Coverage Results" MODIFIED="1322167816801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.springframework.samples.jpetstore.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/jpetstore$All_in_Jpetstore.ic" NAME="All in Jpetstore Coverage Results" MODIFIED="1322146704996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.springframework.samples.jpetstore.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/jpetstore$All_Tests.ic" NAME="All Tests Coverage Results" MODIFIED="1322168502199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.springframework.samples.jpetstore.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -80,79 +86,79 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Order.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/org/springframework/samples/jpetstore/domain/Order.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="15" selection-start="255" selection-end="255" vertical-scroll-proportion="0.20307167">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrderService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/springframework/samples/jpetstore/domain/logic/OrderService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="petstore-servlet.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/war/WEB-INF/petstore-servlet.xml">
-          <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/annotation/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="131" column="0" selection-start="4660" selection-end="4660" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/attributes/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="131" column="0" selection-start="4727" selection-end="4727" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/war/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="121" column="0" selection-start="4499" selection-end="4499" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="applicationContext.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/war/WEB-INF/applicationContext.xml">
-          <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="0" selection-start="4003" selection-end="4003" vertical-scroll-proportion="-22.35">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AccountValidator.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/springframework/samples/jpetstore/domain/logic/AccountValidator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="13" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0">
+            <state line="18" column="26" selection-start="546" selection-end="546" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Order.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/org/springframework/samples/jpetstore/domain/Order.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="16" selection-start="202" selection-end="202" vertical-scroll-proportion="-0.24744028">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/org/springframework/samples/jpetstore/domain/OrderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="49" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LineItem.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/springframework/samples/jpetstore/domain/LineItem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="17" selection-start="1255" selection-end="1255" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CartItemTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/org/springframework/samples/jpetstore/domain/CartItemTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="14" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CartTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/org/springframework/samples/jpetstore/domain/CartTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="14" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="68" column="52" selection-start="1933" selection-end="1933" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SqlMapItemDao.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/springframework/samples/jpetstore/dao/ibatis/SqlMapItemDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="14" selection-start="585" selection-end="585" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -161,16 +167,16 @@
       <file leaf-file-name="PetStoreImpl.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/springframework/samples/jpetstore/domain/logic/PetStoreImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="13" selection-start="2839" selection-end="2839" vertical-scroll-proportion="0.0">
+            <state line="153" column="27" selection-start="5286" selection-end="5286" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrderValidator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/springframework/samples/jpetstore/domain/logic/OrderValidator.java">
+      <file leaf-file-name="ItemDao.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/springframework/samples/jpetstore/dao/ItemDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="13" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0">
+            <state line="10" column="0" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -198,6 +204,10 @@
         <option value="$PROJECT_DIR$/attributes/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/war/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/war/WEB-INF/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/org/springframework/samples/jpetstore/dao/ibatis/SqlMapItemDao.java" />
+        <option value="$PROJECT_DIR$/test/org/springframework/samples/jpetstore/domain/CartTest.java" />
+        <option value="$PROJECT_DIR$/test/org/springframework/samples/jpetstore/domain/CartItemTest.java" />
+        <option value="$PROJECT_DIR$/test/org/springframework/samples/jpetstore/domain/OrderTest.java" />
       </list>
     </option>
   </component>
@@ -332,6 +342,80 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jpetstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jpetstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jpetstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jpetstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jpetstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jpetstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jpetstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jpetstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jpetstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ibatis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -342,12 +426,12 @@
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="fileTemplates" />
+    <property name="options.lastSelected" value="web.server" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -368,7 +452,7 @@
       <recent name="org.springframework.samples.jpetstore.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All Tests in Jpetstore">
+  <component name="RunManager" selected="JUnit.All Tests">
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -431,6 +515,30 @@
         <option name="PhingTarget" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+        <option name="PhingTarget" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+        <option name="PhingTarget" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -474,7 +582,7 @@
         <option name="PhingTarget" enabled="false" />
       </method>
     </configuration>
-    <configuration default="false" name="All Tests in Jpetstore" type="JUnit" factoryName="JUnit">
+    <configuration default="false" name="All Tests" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="true" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="org.springframework.samples.jpetstore.*" />
@@ -484,7 +592,7 @@
       <module name="Jpetstore" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="PACKAGE_NAME" />
+      <option name="PACKAGE_NAME" value="org.springframework.samples.jpetstore.domain" />
       <option name="MAIN_CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="directory" />
@@ -494,14 +602,17 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
+        <value defaultName="wholeProject" />
       </option>
       <envs />
-      <dir value="$PROJECT_DIR$/src" />
+      <dir value="$PROJECT_DIR$/test" />
       <patterns />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
-      <method />
+      <method>
+        <option name="AntTarget" enabled="false" antfile="file://$PROJECT_DIR$/build.xml" target="all" />
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="false" name="PetStore" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 6">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/jpetstore/shop/index.do" />
@@ -555,7 +666,7 @@
       </method>
     </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.All Tests in Jpetstore" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.All Tests" />
       <item index="1" class="java.lang.String" itemvalue="Tomcat Server.PetStore" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -597,7 +708,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -614,7 +725,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980111" sideWeight="0.6703645" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3484487" sideWeight="0.45958796" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.54041207" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -714,118 +825,120 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/org/springframework/samples/jpetstore/domain/CartTest.java">
+    <entry file="file://$PROJECT_DIR$/src/org/springframework/samples/jpetstore/web/spring/AddItemToCartController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="21" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0">
+        <state line="16" column="13" selection-start="567" selection-end="567" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/springframework/samples/jpetstore/domain/Account.java">
+    <entry file="file://$PROJECT_DIR$/src/org/springframework/samples/jpetstore/dao/ibatis/SqlMapOrderDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="33" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
+        <state line="31" column="14" selection-start="1178" selection-end="1178" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/springframework/samples/jpetstore/domain/Category.java">
+    <entry file="file://$PROJECT_DIR$/src/org/springframework/samples/jpetstore/dao/OrderDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0">
+        <state line="13" column="0" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/springframework/samples/jpetstore/domain/Item.java">
+    <entry file="file://$PROJECT_DIR$/src/org/springframework/samples/jpetstore/web/spring/OrderFormController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="26" selection-start="197" selection-end="206" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/springframework/samples/jpetstore/domain/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="50" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0">
+        <state line="102" column="28" selection-start="3636" selection-end="3636" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/springframework/samples/jpetstore/domain/LineItem.java">
+    <entry file="file://$PROJECT_DIR$/src/org/springframework/samples/jpetstore/domain/logic/PetStoreFacade.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/springframework/samples/jpetstore/domain/logic/AccountValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/springframework/samples/jpetstore/domain/logic/OrderValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0">
+        <state line="48" column="0" selection-start="1050" selection-end="1050" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/springframework/samples/jpetstore/domain/logic/PetStoreImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="13" selection-start="2839" selection-end="2839" vertical-scroll-proportion="0.0">
+        <state line="153" column="27" selection-start="5286" selection-end="5286" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/springframework/samples/jpetstore/domain/logic/OrderService.java">
+    <entry file="file://$PROJECT_DIR$/src/org/springframework/samples/jpetstore/dao/ItemDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0">
+        <state line="10" column="0" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/war/WEB-INF/petstore-servlet.xml">
-      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/org/springframework/samples/jpetstore/dao/ibatis/SqlMapItemDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="15" column="14" selection-start="585" selection-end="585" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/annotation/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/src/org/springframework/samples/jpetstore/domain/logic/AccountValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="131" column="0" selection-start="4660" selection-end="4660" vertical-scroll-proportion="0.0">
+        <state line="18" column="26" selection-start="546" selection-end="546" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/attributes/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/build.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="131" column="0" selection-start="4727" selection-end="4727" vertical-scroll-proportion="0.0">
+        <state line="68" column="52" selection-start="1933" selection-end="1933" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/war/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/test/org/springframework/samples/jpetstore/domain/CartTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="0" selection-start="4499" selection-end="4499" vertical-scroll-proportion="0.0">
+        <state line="18" column="14" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/org/springframework/samples/jpetstore/domain/CartItemTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="14" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../env-lib/junit-4.4.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="147" selection-end="147" vertical-scroll-proportion="0.122262776">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/war/WEB-INF/applicationContext.xml">
-      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/org/springframework/samples/jpetstore/domain/LineItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="0" selection-start="4003" selection-end="4003" vertical-scroll-proportion="-22.35">
+        <state line="46" column="17" selection-start="1255" selection-end="1255" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/org/springframework/samples/jpetstore/domain/OrderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="49" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/springframework/samples/jpetstore/domain/Order.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="15" selection-start="255" selection-end="255" vertical-scroll-proportion="0.20307167">
+        <state line="8" column="16" selection-start="202" selection-end="202" vertical-scroll-proportion="-0.24744028">
           <folding />
         </state>
       </provider>
