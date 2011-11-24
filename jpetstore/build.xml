@@ -11,34 +11,34 @@
 	<property name="weblib.dir" value="${war.dir}/WEB-INF/lib"/>
 	<property name="dist.dir" value="dist"/>
 
-	<property name="spring.root" value="../.."/>
+	<property name="spring.root" value=".."/>
 
 
 	<path id="master-classpath">
 
-		<fileset dir="${spring.root}/lib/axis">
+		<fileset dir="${spring.root}/env-lib">
 			<include name="axis.jar"/>
 		</fileset>
-		<fileset dir="${spring.root}/lib/ibatis">
+		<fileset dir="${spring.root}/env-lib">
 			<include name="ibatis*.jar"/>
 		</fileset>
-		<fileset dir="${spring.root}/lib/j2ee">
+		<fileset dir="${spring.root}/env-lib">
 			<include name="jaxrpc.jar"/>
 			<include name="servlet-api.jar"/>
 		</fileset>
-		<fileset dir="${spring.root}/lib/jakarta-commons">
+		<fileset dir="${spring.root}/env-lib">
 			<include name="commons-logging.jar"/>
 		</fileset>
-		<fileset dir="${spring.root}/lib/struts">
+		<fileset dir="${spring.root}/env-lib">
 			<include name="struts.jar"/>
 		</fileset>
-		<fileset dir="${spring.root}/dist">
+		<fileset dir="${spring.root}/env-lib">
 			<include name="spring.jar"/>
 		</fileset>
-		<fileset dir="${spring.root}/dist/modules">
+		<fileset dir="${spring.root}/env-lib">
 			<include name="spring-webmvc.jar"/>
 		</fileset>
-        <fileset dir="${spring.root}/lib/junit">
+        <fileset dir="${spring.root}/env-lib">
             <include name="junit-4.4.jar"/>
         </fileset>
 
@@ -94,27 +94,27 @@
 		<jar jarfile="${weblib.dir}/${name}.jar" compress="true" basedir="${build.dir}"/>
 
 		<copy todir="${weblib.dir}" preservelastmodified="true">
-			<fileset dir="${spring.root}/lib/aspectj">
+			<fileset dir="${spring.root}/env-lib">
 				<include name="aspectjweaver.jar"/>
 			</fileset>
-			<fileset dir="${spring.root}/lib/axis">
+			<fileset dir="${spring.root}/env-lib">
 				<include name="axis.jar"/>
 				<include name="wsdl4j.jar"/>
 			</fileset>
-			<fileset dir="${spring.root}/lib/caucho">
+			<fileset dir="${spring.root}/env-lib">
 				<include name="hessian*.jar"/>
 			</fileset>
-			<fileset dir="${spring.root}/lib/hsqldb">
+			<fileset dir="${spring.root}/env-lib">
 				<include name="hsqldb.jar"/>
 			</fileset>
-			<fileset dir="${spring.root}/lib/ibatis">
+			<fileset dir="${spring.root}/env-lib">
 				<include name="ibatis-*.jar"/>
 			</fileset>
-			<fileset dir="${spring.root}/lib/j2ee">
+			<fileset dir="${spring.root}/env-lib">
 				<include name="jaxrpc.jar"/>
 				<include name="jstl.jar"/>
 			</fileset>
-			<fileset dir="${spring.root}/lib/jakarta-commons">
+			<fileset dir="${spring.root}/env-lib">
 				<include name="commons-beanutils.jar"/>
 				<include name="commons-collections.jar"/>
 				<include name="commons-dbcp.jar"/>
@@ -124,19 +124,19 @@
 				<include name="commons-pool.jar"/>
 				<include name="commons-validator.jar"/>
 			</fileset>
-			<fileset dir="${spring.root}/lib/jakarta-taglibs">
+			<fileset dir="${spring.root}/env-lib">
 				<include name="standard.jar"/>
 			</fileset>
-      <fileset dir="${spring.root}/lib/jaxws">
+      <fileset dir="${spring.root}/env-lib">
         <include name="saaj-api.jar"/>
       </fileset>
-			<fileset dir="${spring.root}/lib/struts">
+			<fileset dir="${spring.root}/env-lib">
 				<include name="struts.jar"/>
 			</fileset>
-			<fileset dir="${spring.root}/dist">
+			<fileset dir="${spring.root}/env-lib">
 				<include name="spring.jar"/>
 			</fileset>
-			<fileset dir="${spring.root}/dist/modules">
+			<fileset dir="${spring.root}/env-lib">
 				<include name="spring-webmvc.jar"/>
 			</fileset>
 
