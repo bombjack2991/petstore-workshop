@@ -25,6 +25,9 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/jpetstore$All_Tests_in_Jpetstore.ic" NAME="All Tests in Jpetstore Coverage Results" MODIFIED="1322149056681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.springframework.samples.jpetstore.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/jpetstore$All_in_Jpetstore.ic" NAME="All in Jpetstore Coverage Results" MODIFIED="1322146704996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.springframework.samples.jpetstore.*</FILTER>
     </SUITE>
@@ -80,10 +83,8 @@
       <file leaf-file-name="CartTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/org/springframework/samples/jpetstore/domain/CartTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="18" selection-start="788" selection-end="788" vertical-scroll-proportion="0.352649">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="9" column="32" selection-start="195" selection-end="195" vertical-scroll-proportion="0.22516556">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -327,7 +328,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -342,74 +343,16 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLanguage" value="Java" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="org.springframework.samples.jpetstore.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in Jpetstore">
-    <configuration default="false" name="CartItemTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="org.springframework.samples.jpetstore.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Jpetstore" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="PACKAGE_NAME" value="org.springframework.samples.jpetstore.domain" />
-      <option name="MAIN_CLASS_NAME" value="org.springframework.samples.jpetstore.domain.CartItemTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method>
-        <option name="AntTarget" enabled="true" antfile="file://$PROJECT_DIR$/build.xml" target="build" />
-      </method>
-    </configuration>
-    <configuration default="false" name="CartTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="org.springframework.samples.jpetstore.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Jpetstore" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="PACKAGE_NAME" value="org.springframework.samples.jpetstore.domain" />
-      <option name="MAIN_CLASS_NAME" value="org.springframework.samples.jpetstore.domain.CartTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.All Tests in Jpetstore">
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -515,7 +458,7 @@
         <option name="PhingTarget" enabled="false" />
       </method>
     </configuration>
-    <configuration default="false" name="All in Jpetstore" type="JUnit" factoryName="JUnit">
+    <configuration default="false" name="All Tests in Jpetstore" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="true" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="org.springframework.samples.jpetstore.*" />
@@ -595,11 +538,9 @@
         <option name="Make" enabled="false" />
       </method>
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.CartItemTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CartTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.All in Jpetstore" />
-      <item index="3" class="java.lang.String" itemvalue="Tomcat Server.PetStore" />
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.All Tests in Jpetstore" />
+      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.PetStore" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -627,6 +568,7 @@
   </component>
   <component name="TaskManager">
     <task id="Default" summary="Default task">
+      <changelist id="95b934bc-ea36-4268-817f-905a43c1fa5d" name="Default" comment="" />
       <created>1322143059700</created>
       <updated>1322145707925</updated>
     </task>
@@ -639,31 +581,31 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.59904915" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.45958796" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Struts Assistant" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296355" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.45958796" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980111" sideWeight="0.45958796" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.54041207" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.59904915" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Struts Assistant" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
@@ -758,117 +700,78 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/org/springframework/samples/jpetstore/web/spring/ViewProductController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="115" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../lib/junit/junit-4.4.jar!/junit/framework/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="23" selection-start="910" selection-end="910" vertical-scroll-proportion="-4.84">
-          <folding />
-        </state>
+        <state line="4" column="115" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="62" selection-start="2241" selection-end="2241" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="79" column="62" selection-start="2241" selection-end="2241" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/springframework/samples/jpetstore/domain/CartItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="18" selection-start="624" selection-end="624" vertical-scroll-proportion="0.3807947">
-          <folding />
-        </state>
+        <state line="27" column="18" selection-start="624" selection-end="624" vertical-scroll-proportion="0.3807947" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/springframework/samples/jpetstore/domain/CartItemTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="34" selection-start="305" selection-end="305" vertical-scroll-proportion="0.33774835">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="12" column="34" selection-start="305" selection-end="305" vertical-scroll-proportion="0.33774835" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/war/WEB-INF/lib/spring.jar!/org/springframework/beans/support/PagedListHolder.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="171" selection-end="171" vertical-scroll-proportion="0.124087594">
-          <folding />
-        </state>
+        <state line="5" column="13" selection-start="171" selection-end="171" vertical-scroll-proportion="0.124087594" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/springframework/samples/jpetstore/domain/logic/PetStoreFacade.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="1009" selection-end="1009" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="45" column="0" selection-start="1009" selection-end="1009" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/springframework/samples/jpetstore/domain/logic/PetStoreImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="148" column="34" selection-start="5168" selection-end="5168" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="148" column="34" selection-start="5168" selection-end="5168" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/springframework/samples/jpetstore/dao/ItemDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="12" column="0" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/springframework/samples/jpetstore/dao/ibatis/SqlMapItemDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="88" selection-start="1216" selection-end="1236" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="28" column="88" selection-start="1216" selection-end="1236" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/springframework/samples/jpetstore/web/spring/AddItemToCartController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="54" selection-start="1326" selection-end="1326" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="34" column="54" selection-start="1326" selection-end="1326" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/springframework/samples/jpetstore/web/spring/ViewCartController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="10" selection-start="809" selection-end="809" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/springframework/samples/jpetstore/domain/Cart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="25" selection-start="783" selection-end="783" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="24" column="10" selection-start="809" selection-end="809" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/springframework/samples/jpetstore/domain/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="24" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="15" column="24" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/springframework/samples/jpetstore/domain/Item.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="26" selection-start="197" selection-end="206" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="10" column="26" selection-start="197" selection-end="206" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/springframework/samples/jpetstore/domain/Cart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="25" selection-start="783" selection-end="783" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/springframework/samples/jpetstore/domain/CartTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="18" selection-start="788" selection-end="788" vertical-scroll-proportion="0.352649">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="9" column="32" selection-start="195" selection-end="195" vertical-scroll-proportion="0.22516556">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -947,7 +850,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>lib</last-edited>
+          <last-edited>env-lib</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
