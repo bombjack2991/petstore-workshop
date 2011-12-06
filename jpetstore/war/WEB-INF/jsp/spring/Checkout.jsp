@@ -44,7 +44,7 @@
 </c:forEach>
 <tr bgcolor="#FFFF88">
 <td colspan="7" align="right">
-<b>Sub Total: <fmt:formatNumber value="${cart.subTotal}" pattern="$#,##0.00" /></b><br />
+<b>Sub Total: <fmt:formatNumber value="${cart.discountedSubTotal}" pattern="$#,##0.00" /></b><br />
 
 </td>
 </tr>

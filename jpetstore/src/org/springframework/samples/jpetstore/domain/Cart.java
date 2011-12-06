@@ -1,10 +1,7 @@
 package org.springframework.samples.jpetstore.domain;
 
 import java.io.Serializable;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
+import java.util.*;
 
 import org.springframework.beans.support.PagedListHolder;
 
@@ -12,9 +9,11 @@ public class Cart implements Serializable {
 
   /* Private Fields */
 
-  private final Map itemMap = Collections.synchronizedMap(new HashMap());
+  private final Map<String, CartItem> itemMap = Collections.synchronizedMap(new HashMap<String, CartItem>());
 	
   private final PagedListHolder itemList = new PagedListHolder();
+
+    private final static double DISCOUNT_RATE = 0.9d;
 
   /* JavaBeans Properties */
 
@@ -33,7 +32,7 @@ public class Cart implements Serializable {
   }
 
   public void addItem(Item item, boolean isInStock) {
-    CartItem cartItem = (CartItem) itemMap.get(item.getItemId());
+    CartItem cartItem = itemMap.get(item.getItemId());
     if (cartItem == null) {
       cartItem = new CartItem();
       cartItem.setItem(item);
@@ -47,7 +46,7 @@ public class Cart implements Serializable {
 
 
   public Item removeItemById(String itemId) {
-    CartItem cartItem = (CartItem) itemMap.remove(itemId);
+    CartItem cartItem =  itemMap.remove(itemId);
     if (cartItem == null) {
       return null;
     }
@@ -58,12 +57,12 @@ public class Cart implements Serializable {
   }
 
   public void incrementQuantityByItemId(String itemId) {
-    CartItem cartItem = (CartItem) itemMap.get(itemId);
+    CartItem cartItem = itemMap.get(itemId);
     cartItem.incrementQuantity();
   }
 
   public void setQuantityByItemId(String itemId, int quantity) {
-    CartItem cartItem = (CartItem) itemMap.get(itemId);
+    CartItem cartItem =  itemMap.get(itemId);
     cartItem.setQuantity(quantity);
   }
 
@@ -80,4 +79,23 @@ public class Cart implements Serializable {
     return subTotal;
   }
 
+    public boolean isDiscountApplicable() {
+        Set<String> categoryIdSet = new HashSet<String>();
+        int numberOfItems = 0;
+        for(CartItem cartItem: itemMap.values()) {
+            categoryIdSet.add(cartItem.getItem().getProduct().getCategoryId());
+            numberOfItems += cartItem.getQuantity();
+        }
+        return getSubTotal() >= 200
+                || numberOfItems >= 5
+                || categoryIdSet.size() >= 2;
+    }
+
+    public boolean isVoucherGiven() {
+        return getSubTotal() >= 1000;
+    }
+
+    public double getDiscountedSubTotal() {
+        return isDiscountApplicable() ? getSubTotal()* DISCOUNT_RATE :getSubTotal();
+    }
 }

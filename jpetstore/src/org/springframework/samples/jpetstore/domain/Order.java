@@ -145,7 +145,7 @@ public class Order implements Serializable {
     billZip = account.getZip();
     billCountry = account.getCountry();
 
-    totalPrice = cart.getSubTotal();
+    totalPrice = cart.getDiscountedSubTotal();
 
     creditCard = "999 9999 9999 9999";
     expiryDate = "12/03";
